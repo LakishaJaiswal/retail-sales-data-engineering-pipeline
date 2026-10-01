@@ -1,0 +1,14 @@
+order_id,customer_id,product_id,order_date,quantity,unit_price,category,region
+1001,C001,P001,2026-01-05,2,450,Electronics,North
+1002,C002,P002,2026-01-08,1,1200,Furniture,South
+1003,C003,P003,2026-01-12,5,150,Stationery,East
+1004,C001,P004,2026-01-18,3,800,Electronics,North
+1005,C004,P005,2026-02-02,2,650,Furniture,West
+1006,C005,P001,2026-02-07,1,450,Electronics,South
+1007,C002,P003,2026-02-15,10,150,Stationery,South
+1008,C006,P006,2026-02-21,4,300,Electronics,East
+1009,C003,P002,2026-03-03,2,1200,Furniture,East
+1010,C007,P005,2026-03-11,3,650,Furniture,West
+1001,C001,P001,2026-01-05,2,450,Electronics,North
+1011,C008,P007,2026-03-20,-1,500,Electronics,North
+1012,C009,P008,2026-03-25,2,,Stationery,West

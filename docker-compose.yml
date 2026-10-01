@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: retail_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: retail_dw
+      POSTGRES_USER: retail_user
+      POSTGRES_PASSWORD: retail_pass
+    ports:
+      - "5433:5432"
+    volumes:
+      - retail_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  retail_postgres_data:
